@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Inclxxxx-geheimes-Wort!!e="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Inclxxxx-geheimes-Wort!!e="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{80CE21D4-2233-4DD7-B0C2-E0C6879D6643}</ProjectGuid>
+    <RootNamespace>xxxx-geheimes-Wort!!download</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalInclxxxx-geheimes-Wort!!eDirectories>D:\Aktuelle Dateien\ultimateFORCE\Eigene Dokumente\info-proj-chromiumembedded\cef_binary_3.2272.1998_windows32;%(AdditionalInclxxxx-geheimes-Wort!!eDirectories)</AdditionalInclxxxx-geheimes-Wort!!eDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\Aktuelle Dateien\ultimateFORCE\Eigene Dokumente\info-proj-chromiumembedded\cef_binary_3.2272.1998_windows32\Debug;D:\Aktuelle Dateien\ultimateFORCE\Eigene Dokumente\info-proj-chromiumembedded\cef_binary_3.2272.1998_windows32\libcef_dll\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcef.lib;cef_sandbox.lib;libcef_dll_wrapper.lib;DbgHelp.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalInclxxxx-geheimes-Wort!!eDirectories>D:\Aktuelle Dateien\ultimateFORCE\Eigene Dokumente\info-proj-chromiumembedded\cef_binary_3.2272.1998_windows32</AdditionalInclxxxx-geheimes-Wort!!eDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\Aktuelle Dateien\ultimateFORCE\Eigene Dokumente\info-proj-chromiumembedded\cef_binary_3.2272.1998_windows32\Release;D:\Aktuelle Dateien\ultimateFORCE\Eigene Dokumente\info-proj-chromiumembedded\cef_binary_3.2272.1998_windows32\libcef_dll\Release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcef.lib;cef_sandbox.lib;libcef_dll_wrapper.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Inclxxxx-geheimes-Wort!!e="AppHandler.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="app_handler_request_context_handler.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="browser_references.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="config_file_io.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="DownLoadHandler_Browser.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="download_js_handler.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="Download_Manager_webdata_Resource_Handler.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="download_scheme_handler.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="main.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="MainApp.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="main_window.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="path_helper.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="ResourceHandler.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="resource_loading.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="string_helper.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="submit_course_preview_js_handler.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="Thread.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="xxxx-geheimes-Wort!!_cef_dl_basic_taskdialog.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="WebRequestClient.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="winapi\File_Select_Dialog.cpp" />
+    <ClCompile Inclxxxx-geheimes-Wort!!e="winapi\Folder_Select_Dialog_like_FileName.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="AppHandler.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="app_handler_request_context_handler.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="browser_references.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="config_file_io.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="DownLoadHandler_Browser.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="download_js_handler.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="Download_Manager_webdata_Resource_Handler.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="download_scheme_handler.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="MainApp.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="main_window.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="path_helper.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="picojson.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="resource.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="ResourceHandler.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="resource_loading.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="string_helper.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="submit_course_preview_js_handler.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="Thread.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="xxxx-geheimes-Wort!!_cef_dl_basic_taskdialog.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="WebRequestClient.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="winapi\File_Select_Dialog.h" />
+    <ClInclxxxx-geheimes-Wort!!e Inclxxxx-geheimes-Wort!!e="winapi\Folder_Select_Dialog_like_FileName.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Inclxxxx-geheimes-Wort!!e="cefsimple.exe.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Inclxxxx-geheimes-Wort!!e="resource_script.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
